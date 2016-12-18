@@ -4,10 +4,10 @@ Project of Carl and Alex
 Topic 14.4 from "Programmable Microcontrollers With Applications" by Unsalan and Gurhan
 <p>The following Link showcases our project in a video: https://youtu.be/zNbsNregsBI
 
-<p>In this application, we designed a digital lock system with a keypad, an LCD, and a
+<p>*In this application, we designed a digital lock system with a keypad, an LCD, and a
 solenoid. Initially, "Enter Password:" is written on the first line of the LCD, and the
 system must wait for user input. When there is an entry from the keypad, the system writes
-* on the second line of the LCD. Each * sign represents an entered number. If the entered
+asterisk on the second line of the LCD. Each asterisk sign represents an entered number. If the entered
 password is wrong, an Access Denied string is written to the second line of the LCD and 
 the red LED is turned on. Also, the buzzer connected to the same pin with the red LED 
 starts to beep. After 5 s, the system returns to the initial condition by turning off 
